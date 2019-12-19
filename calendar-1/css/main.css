@@ -459,9 +459,8 @@ html {
   clear: both; }
 
 .main-wrapper {
-  background: url(../img/main-bg.jpg) no-repeat top center/cover ;
+  background: url(../img/main-bg.jpg) repeat-y top center;
   min-width: 1024px;
-  height: 100%;
   position: relative; }
 
 .countdown {
