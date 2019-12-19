@@ -438,7 +438,8 @@ body {
   line-height: 1.125;
   font-family: "Montserrat", sans-serif;
   opacity: 1;
-  background-color: #DC3C3C; }
+  background-color: #DC3C3C; 
+}
 
 img,
 .img-responsive {
@@ -458,8 +459,9 @@ html {
   clear: both; }
 
 .main-wrapper {
-  background: url(../img/main-bg.jpg) no-repeat center top;
+  background: url(../img/main-bg.jpg) no-repeat top center/cover ;
   min-width: 1024px;
+  height: 100%;
   position: relative; }
 
 .countdown {
